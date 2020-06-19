@@ -1,0 +1,64 @@
+body{
+
+background-color: grey;
+
+}
+
+
+#wrapper {
+  width: 800px;
+  border: 25px;
+  padding: 50px;
+  margin: 20px;
+height: 400px;
+text-align: center;
+background-color: skyblue;
+
+}
+
+
+
+
+#pagebanner {
+
+font-family:cursive;
+color: black;
+background-color: grey;
+width: 800px;
+
+
+}
+
+li{
+list-style: none;
+display:flex , 
+flex-direction: row;
+justify-content: space-around;
+width: 500px;
+
+}
+
+ul{
+
+display:flex , 
+flex-direction: column;
+justify-content: space-between;
+width: 500px;
+
+}
+.title{
+
+text-align: left;
+
+
+}
+.name{
+
+text-align: left;
+
+}
+.delete{
+
+text-align: end;
+font color: blue;
+}
