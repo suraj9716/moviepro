@@ -1,6 +1,6 @@
 body{
 
-background-color: grey;
+background-color: white;
 
 }
 
@@ -9,10 +9,12 @@ background-color: grey;
   width: 800px;
   border: 25px;
   padding: 50px;
-  margin: 20px;
+ 
+margin-top: 100px;
+margin-left: 350px;
 height: 400px;
 text-align: center;
-background-color: skyblue;
+
 
 }
 
@@ -30,35 +32,92 @@ width: 800px;
 }
 
 li{
-list-style: none;
-display:flex , 
+
+display: flex;
 flex-direction: row;
 justify-content: space-around;
-width: 500px;
+width: 400px;
 
 }
+
+
 
 ul{
 
 display:flex , 
 flex-direction: column;
-justify-content: space-between;
-width: 500px;
+justify-content: flex-start;
+
 
 }
+
+
 .title{
 
 text-align: left;
+ 
 
 
 }
 .name{
 
 text-align: left;
+color: blue;
+font-size: 25px;
+justify-items: center;
+
+float: left;
+    padding: 5px;
+  margin-bottom: 9px;
+  background-color: deepskyblue;
+  color: white;
 
 }
+
+.name:hover{
+    
+     background-color: #0099cc;
+    
+}
+
 .delete{
 
-text-align: end;
 font color: blue;
+}
+
+#movieslist{
+
+background-color:lightgreen;
+height: 300px;
+}
+
+#addmovie{
+
+background-color:lightcoral;
+font-size: 30px;
+font-family: sans-serif;
+height: 50px;
+}
+
+.del{
+
+color: crimson;
+float: left;
+    padding: 8px;
+  margin-bottom: 18px;
+  background-color: slateblue;
+  color: white;
+text-align: right;
+
+}
+.del:hover{
+
+ background-color: #0099cc;
+
+}
+
+.mov{
+
+color:red;
+
 }
