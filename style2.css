@@ -6,8 +6,8 @@ background-color: white;
 
 
 #wrapper {
-  width: 800px;
-  border: 25px;
+  width: 850px;
+  border: 50px;
   padding: 50px;
  
 margin-top: 100px;
@@ -26,7 +26,21 @@ text-align: center;
 font-family:cursive;
 color: black;
 background-color: grey;
-width: 800px;
+width: 850px;
+
+
+}
+
+
+
+
+
+
+ul{
+
+display:flex;
+flex-direction: column;
+justify-content: flex-start;
 
 
 }
@@ -35,19 +49,8 @@ li{
 
 display: flex;
 flex-direction: row;
-justify-content: space-around;
+justify-content: space-between;
 width: 400px;
-
-}
-
-
-
-ul{
-
-display:flex , 
-flex-direction: column;
-justify-content: flex-start;
-
 
 }
 
@@ -67,7 +70,7 @@ font-size: 25px;
 justify-items: center;
 
 float: left;
-    padding: 5px;
+    padding: 2px;
   margin-bottom: 9px;
   background-color: deepskyblue;
   color: white;
@@ -80,10 +83,6 @@ float: left;
     
 }
 
-.delete{
-
-font color: blue;
-}
 
 #movieslist{
 
@@ -101,18 +100,23 @@ height: 50px;
 
 .del{
 
-color: crimson;
-float: left;
-    padding: 8px;
-  margin-bottom: 18px;
-  background-color: slateblue;
-  color: white;
-text-align: right;
-
+  background-color: lightcoral;
+  border:none;
+  color: black;
+  padding: 13px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin:  3px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+margin-left: 50px;
 }
 .del:hover{
 
- background-color: #0099cc;
+  background-color: #f44336;
+  color: white;
 
 }
 
@@ -121,3 +125,4 @@ text-align: right;
 color:red;
 
 }
+
