@@ -3,6 +3,8 @@
 <head>
 <link rel="stylesheet" href="style2.css">
 
+
+
     </head>
 <body>
 
@@ -21,7 +23,7 @@
 <div id="movieslist">
 <h2 class="title">Movies to watch</h2>
 
-<ul>
+<ul id="uuu">
 
 <li>
 <span class="name">Fight club</span>
@@ -52,10 +54,42 @@
     </div>
 <form id="addmovie">
     <input type="checkbox" id="hide"> 
-    <label for="hide">hide the list</label>
+    <label for="kkk">hide the list</label>
 <input type="text" placeholder="Add a movies"> 
 <button>Add</button>
     </form>
     </div>
+
+
+<script>
+
+var list= document.querySelector('#movieslist ul');
+    list.addEventListener('click',function(e){
+     if (e.target.className ==='del'){
+
+     var li = e.target.parentElement;
+    list.removeChild(li);
+
+}
+})
+
+var hide = document.getElementById('hide');
+    hide.addEventListener('click', function(e){
+
+if (hide.checked == true){
+
+    list.hidden = true;
+
+}
+
+else if(hide.checked==false){
+
+list.hidden = false;
+
+}})
+
+
+</script>
+
     </body>
 </html>
