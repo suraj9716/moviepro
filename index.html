@@ -8,57 +8,57 @@
     </head>
 <body>
 
-    
 <div id ="wrapper">
-<header>
-<div id="pagebanner">
-    <h1 id="pehla">Moviemania</h1>
 
-     <p id="dusra">Movies for everyone</p>
-<form id="searchmovies">
-     <input type="text" placeholder="Search movies">
+    <header>
+        <div id="pagebanner">
+            <h1 id="pehla">Moviemania</h1>
+
+            <p id="dusra">Movies for everyone</p>
+            <form id="searchmovies">
+            <input type="text" placeholder="Search movies">
+            </form>
+        </div></header>
+
+    <div id="movieslist">
+    <h2 class="title">Movies to watch</h2>
+
+    <ul id="uuu">
+
+        <li>
+        <span class="name">Fight club</span>
+        <span class="del">delete</span>
+
+        </li>
+        <li>
+        <span class="name">shawshank redemption</span>
+        <span class="del">delete</span>
+
+        </li>
+        <li>
+        <span class="name">dilwale</span>
+        <span class="del">delete</span>
+
+        </li>
+        <li>
+        <span class="name">darkknight</span>
+        <span class="del">delete</span>
+
+        </li>
+        <li>
+        <span class="name">darkknight1</span>
+        <span class="del">delete</span>
+
+        </li>
+    </ul>         
+        </div>
+    <form id="addmovie">
+            <input type="checkbox" id="hide"> 
+            <label for="kkk">hide the list</label>
+            <input type="text" placeholder="Add a movies"> 
+            <button id="btn">Add</button>
     </form>
-    </div></header>
-
-<div id="movieslist">
-<h2 class="title">Movies to watch</h2>
-
-<ul id="uuu">
-
-<li>
-<span class="name">Fight club</span>
-<span class="del">delete</span>
-
-</li>
-<li>
-<span class="name">shawshank redemption</span>
-<span class="del">delete</span>
-
-</li>
-<li>
-<span class="name">dilwale</span>
-<span class="del">delete</span>
-
-</li>
-<li>
-<span class="name">darkknight</span>
-<span class="del">delete</span>
-
-</li>
-<li>
-<span class="name">darkknight1</span>
-<span class="del">delete</span>
-
-</li>
-</ul>
-    </div>
-<form id="addmovie">
-    <input type="checkbox" id="hide"> 
-    <label for="kkk">hide the list</label>
-<input type="text" placeholder="Add a movies"> 
-<button>Add</button>
-    </form>
-    </div>
+</div>
 
 
 <script>
@@ -87,6 +87,7 @@ else if(hide.checked==false){
 list.hidden = false;
 
 }})
+
 
 
 </script>
