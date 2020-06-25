@@ -1,17 +1,16 @@
 body{
 
 background-color: white;
-
-}
-
+background-image: url("sky.jpeg");
+background-color: #cccccc;}
 
 #wrapper {
-  width: 850px;
-  border: 50px;
-  padding: 50px;
+  width: 1200px;
+  border: 10px;
+  padding: 10px;
  
 margin-top: 100px;
-margin-left: 350px;
+margin-left: 200px;
 height: 400px;
 text-align: center;
 
@@ -20,19 +19,27 @@ text-align: center;
 
 
 
-
 #pagebanner {
 
 font-family:cursive;
 color: black;
-background-color: grey;
-width: 850px;
-
+background-color: rgb(24,24,24);
+width: 1200px;
+border-radius: 25px;
 
 }
 
+#pehla{
 
+color: white;
+font-family: serif;
+font-size: 50px;
+}
 
+#dusra{
+color: white;
+font-size: 25px;
+}
 
 
 
@@ -50,7 +57,7 @@ li{
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-width: 400px;
+width: 1100px;
 
 }
 
@@ -72,22 +79,30 @@ justify-items: center;
 float: left;
     padding: 2px;
   margin-bottom: 9px;
-  background-color: deepskyblue;
-  color: white;
-
+  background-color: white;
+  color: black;
 }
 
 .name:hover{
     
-     background-color: #0099cc;
-    
+     background-color: red;
+    font-size: 20px;
+ font-weight:bold;
 }
 
 
 #movieslist{
 
-background-color:lightgreen;
+background-color: #009B77;
+
 height: 300px;
+border-radius: 25px;
+}
+
+.title{
+font-size: 30px;
+margin-left: 20px;
+
 }
 
 #addmovie{
@@ -96,6 +111,7 @@ background-color:lightcoral;
 font-size: 30px;
 font-family: sans-serif;
 height: 50px;
+border-radius: 25px;
 }
 
 .del{
@@ -117,7 +133,7 @@ margin-left: 50px;
 
   background-color: #f44336;
   color: white;
-
+ font-size: 15px;
 }
 
 .mov{
@@ -126,3 +142,27 @@ color:red;
 
 }
 
+#btn {
+  
+ 
+     background-color: white; /* Green */
+  border: none;
+ border-radius: 25px;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 5px;
+  cursor: pointer;
+    color: black;
+    border-color: red;
+}
+
+#btn:hover{
+
+ background-color: black;
+  color: white;
+ font-size: 11px;
+
+}
