@@ -88,6 +88,32 @@ list.hidden = false;
 
 }})
 
+var form= document.forms['addmovie'];
+form.addEventListener('submit', function(e){
+
+  /*  e.preventDefault(); */
+
+var val = form.querySelector('input[type="text"]').value;
+    var li=document.createElement('li');
+    
+    var uu =document.createElement('span');
+    
+    var del=document.createElement('span');
+
+ li.appendChild(uu);
+ li.appendChild(del);
+ list.appendChild(li);
+
+ uu.textcontent = vall;
+ del.textcontent = 'delete';
+
+ uu.classlist.add('name');
+ del.classlist.add('del');
+
+}
+
+)
+
 
 
 </script>
